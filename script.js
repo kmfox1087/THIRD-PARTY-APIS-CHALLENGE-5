@@ -33,11 +33,29 @@ let writingblock7 = document.querySelector('#THREE');
 let writingblock8 = document.querySelector('#FOUR');
 let writingblock9 = document.querySelector('#FIVE');
 
-  // TODO: Add a listener for click events on the save button. This code should
-  
+  // TODO: Add a listener for click events on the save button
 
+  button9.addEventListener('click', SaveNotes);
+  button10.addEventListener('click', SaveNotes);
+  button11.addEventListener('click', SaveNotes);
+  button12.addEventListener('click', SaveNotes);
+  button1.addEventListener('click', SaveNotes);
+  button2.addEventListener('click', SaveNotes);
+  button3.addEventListener('click', SaveNotes);
+  button4.addEventListener('click', SaveNotes);
+  button5.addEventListener('click', SaveNotes);
+
+  // Event listener for clear button
+
+  ClearBtn.addEventListener('click', function () {
+    localStorage.clear();
+    location.reload();
+  })
+  
   // TODO: Add code to apply the past, present, or future class to each time
   
+  
+
   // TODO: Add code to get any user input that was saved in localStorage and set
   
   // TODO: Add code to display the current date in the header of the page.
