@@ -70,7 +70,7 @@ let writingblock9 = document.querySelector('#FIVE');
     document.getElementById('Tenam').style.backgroundColor = "red";
   }
 
-  if (getTime==11) {
+  if (getTime == 11) {
     document.getElementById('Eleveam').style.backgroundColor = "white";
   } else if (getTime < 11) {
     document.getElementById('Elevenam').style.backgroundColor = "green";
@@ -78,7 +78,7 @@ let writingblock9 = document.querySelector('#FIVE');
     document.getElementById('Elevenam').style.backgroundColor = "red";
   }
 
-  if (getTime==12) {
+  if (getTime == 12) {
     document.getElementById('Twelvepm').style.backgroundColor = "white";
   } else if (getTime < 12) {
     document.getElementById('Twelvepm').style.backgroundColor = "green";
@@ -86,12 +86,44 @@ let writingblock9 = document.querySelector('#FIVE');
     document.getElementById('Twelvepm').style.backgroundColor = "red";
   }
 
-  if (getTime==13) {
+  if (getTime == 13) {
     document.getElementById('Onepm').style.backgroundColor = "white";
-  } else if (getTime < 9) {
+  } else if (getTime < 13) {
     document.getElementById('Onepm').style.backgroundColor = "green";
   } else {
     document.getElementById('Onepm').style.backgroundColor = "red";
+  }
+
+  if (getTime == 14) {
+    document.getElementById('Twopm').style.backgroundColor = "white";
+  } else if (getTime < 14) {
+    document.getElementById('Twopm').style.backgroundColor = "green";
+  } else {
+    document.getElementById('Twopm').style.backgroundColor = "red";
+  }
+
+  if (getTime == 15) {
+    document.getElementById('Threepm').style.backgroundColor = "white";
+  } else if (getTime < 15) {
+    document.getElementById('Threepm').style.backgroundColor = "green";
+  } else {
+    document.getElementById('Threepm').style.backgroundColor = "red";
+  }
+
+  if (getTime==16) {
+    document.getElementById('Fourpm').style.backgroundColor = "white";
+  } else if (getTime < 16) {
+    document.getElementById('Fourpm').style.backgroundColor = "green";
+  } else {
+    document.getElementById('Fourpm').style.backgroundColor = "red";
+  }
+
+  if (getTime==17) {
+    document.getElementById('Fivepm').style.backgroundColor = "white";
+  } else if (getTime < 17) {
+    document.getElementById('Fivepm').style.backgroundColor = "green";
+  } else {
+    document.getElementById('Fivepm').style.backgroundColor = "red";
   }
 
   // TODO: Add code to get any user input that was saved in localStorage and set
