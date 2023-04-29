@@ -54,7 +54,45 @@ let writingblock9 = document.querySelector('#FIVE');
   
   // TODO: Add code to apply the past, present, or future class to each time
   
-  
+  if (getTime==9) {
+    document.getElementById('Nineam').style.backgroundColor = "white";
+  } else if (getTime < 9) {
+    document.getElementById('Nineam').style.backgroundColor = "green";
+  } else {
+    document.getElementById('Nineam').style.backgroundColor = "red";
+  }
+
+  if (getTime==10) {
+    document.getElementById('Tenam').style.backgroundColor = "white";
+  } else if (getTime < 10) {
+    document.getElementById('Tenam').style.backgroundColor = "green";
+  } else {
+    document.getElementById('Tenam').style.backgroundColor = "red";
+  }
+
+  if (getTime==11) {
+    document.getElementById('Eleveam').style.backgroundColor = "white";
+  } else if (getTime < 11) {
+    document.getElementById('Elevenam').style.backgroundColor = "green";
+  } else {
+    document.getElementById('Elevenam').style.backgroundColor = "red";
+  }
+
+  if (getTime==12) {
+    document.getElementById('Twelvepm').style.backgroundColor = "white";
+  } else if (getTime < 12) {
+    document.getElementById('Twelvepm').style.backgroundColor = "green";
+  } else {
+    document.getElementById('Twelvepm').style.backgroundColor = "red";
+  }
+
+  if (getTime==13) {
+    document.getElementById('Onepm').style.backgroundColor = "white";
+  } else if (getTime < 9) {
+    document.getElementById('Onepm').style.backgroundColor = "green";
+  } else {
+    document.getElementById('Onepm').style.backgroundColor = "red";
+  }
 
   // TODO: Add code to get any user input that was saved in localStorage and set
   
