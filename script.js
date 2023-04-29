@@ -51,9 +51,9 @@ let writingblock9 = document.querySelector('#FIVE');
     localStorage.clear();
     location.reload();
   })
-  
-  // TODO: Add code to apply the past, present, or future class to each time
-  
+
+  // If statements to change background color depending on time of day
+
   if (getTime==9) {
     document.getElementById('Nineam').style.backgroundColor = "white";
   } else if (getTime < 9) {
@@ -127,7 +127,7 @@ let writingblock9 = document.querySelector('#FIVE');
   }
 
   // TODO: Add code to get any user input that was saved in localStorage and set
-  
+  // Function to save the user's notes
 function SaveNotes () {
   localStorage.setItem('Nine', writingblock.value)
 }
@@ -164,3 +164,7 @@ function SaveNotes () {
   localStorage.setItem('Five', writingblock9.value)
 }
   // TODO: Add code to display the current date in the header of the page.
+
+  window.setInterval(function () {
+    $('#currentDay').html(moment().format('MMMM Do YYYY, h:mm:ss a'))
+}, 1000);
