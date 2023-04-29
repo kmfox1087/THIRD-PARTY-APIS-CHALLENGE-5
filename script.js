@@ -128,4 +128,39 @@ let writingblock9 = document.querySelector('#FIVE');
 
   // TODO: Add code to get any user input that was saved in localStorage and set
   
+function SaveNotes () {
+  localStorage.setItem('Nine', writingblock.value)
+}
+
+function SaveNotes () {
+  localStorage.setItem('Ten', writingblock2.value)
+}
+
+function SaveNotes () {
+  localStorage.setItem('Eleven', writingblock3.value)
+}
+
+function SaveNotes () {
+  localStorage.setItem('Twelve', writingblock4.value)
+}
+
+function SaveNotes () {
+  localStorage.setItem('One', writingblock5.value)
+}
+
+function SaveNotes () {
+  localStorage.setItem('Two', writingblock6.value)
+}
+
+function SaveNotes () {
+  localStorage.setItem('Three', writingblock7.value)
+}
+
+function SaveNotes () {
+  localStorage.setItem('Four', writingblock8.value)
+}
+
+function SaveNotes () {
+  localStorage.setItem('Five', writingblock9.value)
+}
   // TODO: Add code to display the current date in the header of the page.
