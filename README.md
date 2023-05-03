@@ -2,7 +2,7 @@
 
 #### By _*Kylie Fox*_ 
 
-![Uploading kmfox1087.github.io_THIRD-PARTY-APIS-CHALLENGE-5_.png…]()
+![kmfox1087 github io_THIRD-PARTY-APIS-CHALLENGE-5_](https://user-images.githubusercontent.com/128554207/236054544-f9579b18-05dc-415d-b46d-7adc8a20f4b0.png)
 
 ## Technologies Used
 
@@ -42,7 +42,7 @@ depending on the time of day. We also had to use JS to call the current time and
 
 ## Setup/Installation Requirements
 
-* Go to [ssh key for repo will go here] and copy SSH 
+* Go to https://github.com/kmfox1087/THIRD-PARTY-APIS-CHALLENGE-5 and copy SSH Key
 * Use _git clone_ in your terminal and copy and paste the SSH code to your local computer
 * Use _git status_ to make sure you are in the repo, if not use _cd Bootcamp-Challenge-3_ in your terminal to change into your local repo
 * After clone is complete, type _code ._ into your terminal to edit files as needed
@@ -50,6 +50,7 @@ depending on the time of day. We also had to use JS to call the current time and
 ## Contributions
 
 * Kylie Fox
+* Starter code from: https://git.bootcampcontent.com/Michigan-State-University/MSU-VIRT-FSF-PT-03-2023-U-LOLC
 
 ## License
 
