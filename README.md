@@ -13,7 +13,8 @@
 
 ## Description
 
-[Description of project will go here.]
+For the 5th project of MSU Bootcamp, we were tasked with creating JavaScript that worked with the starter code we were given. We had to have the time sections change color
+depending on the time of day. We also had to use JS to call the current time and keep it updated so that our scheduler would be accurate. 
 
 ## User Story
 
@@ -52,4 +53,4 @@
 
 ## License
 
-Copyright (c) _4/20/23_ _Kylie Fox_
+Copyright (c) _5/2/23_ _Kylie Fox_
